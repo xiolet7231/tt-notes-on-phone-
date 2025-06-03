@@ -8,21 +8,22 @@ A mobile-first progressive web app for recording daily MNQ trading stats.
 - Export data to JSON for backup
 - Optimized for mobile with dark theme
 
-## Development
-1. Install dependencies
-   ```bash
-   cd app
-   npm install
-   ```
-2. Start the dev server
-   ```bash
-   npm run dev -- --host
-   ```
-   Then open the shown local network URL on your phone.
+## Usage
+The repository already contains a built copy of the app under `app/docs/` so you
+can host it directly with GitHub Pages:
 
-## Deployment
-To deploy to GitHub Pages:
+1. In your repository settings on GitHub, open the **Pages** section.
+2. Select the **`main`** branch and `app/docs` folder as the source and save.
+3. After a minute your app will be available at
+   `https://<your_username>.github.io/tt-notes-on-phone-/`.
+
+If you make code changes and want to rebuild the app locally, run:
+
 ```bash
-npm run deploy
+cd app
+npm install
+npm run build
 ```
-GitHub Pages will serve the site from the `gh-pages` branch.
+
+The rebuilt files will appear in `app/docs/`. Commit them and push to update the
+hosted site.
