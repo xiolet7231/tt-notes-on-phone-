@@ -1,13 +1,14 @@
 # TopTick Trading Notes
 
-A mobile-first progressive web app for recording daily MNQ trading stats.
+Mobilna aplikacja PWA do zapisywania dziennych wyników z handlu MNQ.
 
-## Features
-- Add daily P&L, number of trades, optional win rate, and short notes
-- Entries are stored in local storage
-- Export data to JSON for backup
-- Optimized for mobile with dark theme
-- Icons inlined as base64 to avoid binary assets
+## Funkcje
+- Dodawanie P&L, liczby transakcji oraz wygranych (na podstawie czego liczony jest winrate)
+- Krótkie notatki i możliwość dodania zrzutów ekranu do każdego dnia
+- Zapisy w przeglądarce (localStorage) i eksport danych do JSON
+- Kolorowe oznaczenia dni z profitem i stratą
+- Nowoczesny wygląd z gradientem i lekkim efektem szkła
+- Po dodaniu do ekranu startowego wyświetla się jako aplikacja **TopTick**
 
 ## Szybki start (GitHub Pages)
 
