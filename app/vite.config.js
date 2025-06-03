@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/tt-notes-on-phone-/',
   build: {
-    outDir: 'docs',
+    outDir: '../docs',
   },
   plugins: [react()],
 })

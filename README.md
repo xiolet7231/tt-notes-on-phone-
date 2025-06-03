@@ -8,16 +8,20 @@ A mobile-first progressive web app for recording daily MNQ trading stats.
 - Export data to JSON for backup
 - Optimized for mobile with dark theme
 
-## Usage
-The repository already contains a built copy of the app under `app/docs/` so you
-can host it directly with GitHub Pages:
+## Szybki start (GitHub Pages)
 
-1. In your repository settings on GitHub, open the **Pages** section.
-2. Select the **`main`** branch and `app/docs` folder as the source and save.
-3. After a minute your app will be available at
-   `https://<your_username>.github.io/tt-notes-on-phone-/`.
+Gotowa wersja aplikacji znajduje się w folderze `docs/`. Aby strona
+działała od razu po wejściu w link:
 
-If you make code changes and want to rebuild the app locally, run:
+1. Sklonuj repozytorium na swój profil GitHub.
+2. Wejdź w ustawienia repozytorium i otwórz zakładkę **Pages**.
+3. Wybierz gałąź **`main`** oraz katalog **`/docs`** jako źródło i zapisz.
+4. Po chwili aplikacja będzie dostępna pod adresem
+   `https://<twoj_login>.github.io/tt-notes-on-phone-/`.
+5. Otwórz ten link na telefonie i dodaj do ekranu startowego (pokazuje się jako
+   **TopTick**).
+
+Jeśli wprowadzisz zmiany w kodzie i chcesz przebudować aplikację lokalnie, użyj:
 
 ```bash
 cd app
@@ -25,5 +29,7 @@ npm install
 npm run build
 ```
 
-The rebuilt files will appear in `app/docs/`. Commit them and push to update the
-hosted site.
+Po komendzie `npm run build` nowe pliki pojawią się w katalogu `docs/`. Commituj
+i wypychaj je do GitHuba, aby zaktualizować stronę. Możesz też skorzystać z
+`npm run deploy`, aby automatycznie wysłać zawartość folderu `docs` na gałąź
+`gh-pages`.
